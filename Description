@@ -1,0 +1,22 @@
+# Covid-Cases-Count
+
+PyQt5 : PyQt is a Python binding of the cross-platform GUI toolkit Qt, implemented as a Python plug-in. PyQt is free software developed by the British firm Riverbank Computing.
+
+Requests : Requests allows you to send HTTP/1.1 requests extremely easily. There’s no need to manually add query strings to your URLs.
+
+Beautiful Soup: Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.
+
+ 
+
+
+
+Implementations steps :
+
+1. Create a non-editable combo box, set its geometry
+2. Create country list which contain countries name and add it to the combo box
+3. Create three labels to show information about total cases, recovered cases and death cases
+4. Set geometry, alignment and border to each label
+5. Add action to the combo box
+6. Inside the action get the country name and scrap the data from the website with the help of requests BeautifulSoup
+7. Convert the raw data into html code and then filter it to get the required output
+8. Show the output the screen with the help of labels
